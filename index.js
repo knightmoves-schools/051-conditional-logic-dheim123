@@ -1,8 +1,7 @@
-function validateAge(oldEnough){
-  return oldEnough = true('old enough');
+function validateAge(oldEnough) {
+  if (oldEnough === true) {
+    return "old enough";
+  } else {
+    return null; 
+  }
 }
-
-if (validateAge) {
-  document.getElementById("result").innerHTML = hello;
-}
-
